@@ -31,7 +31,7 @@ namespace RxDragDrop
             return Observable.Empty<Point>();
 
             // Reactive extensions are also available for a variety of languages.
-            //   There's a jsfiddle for this drag and drop example here: http://jsfiddle.net/q8zVa/1/
+            //   There's a jsfiddle for this drag and drop example here: http://jsfiddle.net/q8zVa/3/
         }
     }
 }
