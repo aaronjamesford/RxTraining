@@ -67,9 +67,12 @@ namespace RxTrainingTests
         }
 
         [Test]
+        [Ignore]
         public void OperationIsNotRepeatedOrRestartedIfTakesLongerThanOneMinute()
         {
-            // TODO #7 Sometimes Jenkins is slow, and a request takes more than a minute to complete
+            // TODO #7 IGNORE THIS AT ALL COSTS - Sometimes Jenkins is slow, and a request takes more than a minute to complete
+            //         - So as I wrote this a while a go, I literally have no idea what this means. Just skip this step ;)
+            //
             //         Throttle the observable to make sure that another async action is not executed 
             //         if the previous action has not completed
             var rxJenkins = new RxJenkins(this.mockApi, this.scheduler);
